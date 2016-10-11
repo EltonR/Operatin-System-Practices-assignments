@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#description of this assignment can be found at: https://github.com/joao-lima/pso/tree/master/assignments
 
 import subprocess
 import os

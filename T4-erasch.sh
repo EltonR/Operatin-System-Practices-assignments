@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#description of this assignment can be found at: https://github.com/joao-lima/pso/tree/master/assignments
 titulo="Erasch's Machine Management System"
 
 function menu(){

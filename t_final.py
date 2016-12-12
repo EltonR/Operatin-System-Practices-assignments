@@ -69,7 +69,7 @@ for sys.argv[1], dirs, files in os.walk(".", topdown=False):
 				lyricFile.write(lyrics)
 				audiofile.tag.lyrics.set(u'' + lyrics)
 				audiofile.tag.save()
-				#print(audiofile.tag.lyrics.set(lyrics))
+				print(rootFolder+audiofile.tag.artist.decode('utf-8')+" - "+audiofile.tag.title.decode('utf-8'))
 			except Exception, e:
 				print("Couldn\'t find lyrics for \""+audiofile.tag.artist.decode('utf-8') + ' - ' + audiofile.tag.title.decode('utf-8')+"\"\n")
 				notFoundFiles = open("NotFoundLyrics.txt", "a")
